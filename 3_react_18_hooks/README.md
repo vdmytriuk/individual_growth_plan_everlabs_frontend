@@ -11,12 +11,7 @@ Run your app:
   In this example you will see how to use the following concepts:
 </h2>
 
-- [x] [createBrowserRouter](https://reactrouter.com/en/6.15.0/routers/create-browser-router)
-- [x] [Route Matching](https://reactrouter.com/en/6.15.0/hooks/use-match)
-- [x] [Route Params](https://reactrouter.com/en/main/hooks/use-params)
-- [x] [Route Links](https://reactrouter.com/en/main/components/link)
-- [x] [Route Lazy Loading](https://reactrouter.com/en/6.15.0/route/lazy)
-- [x] [Route Outlet](https://reactrouter.com/en/6.15.0/components/outlet)
-- [x] [Route Outlet Context](https://reactrouter.com/en/6.15.0/hooks/use-outlet-context)
-- [x] [Route Loader](https://reactrouter.com/en/6.15.0/hooks/use-loader-data)
-- [x] [Route Navigate](https://reactrouter.com/en/6.15.0/hooks/use-navigate)
+- [x] [React Auto Batching](https://blog.bitsrc.io/automatic-batching-in-react-18-what-you-should-know-d50141dc096e)
+- [x] [startTransition](https://react.dev/reference/react/startTransition)
+- [x] [useDeferredValue](https://react.dev/reference/react/useDeferredValue)
+- [x] [useTransition](https://react.dev/reference/react/useTransition)
