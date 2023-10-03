@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@*": [
+        "src/*/"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@context/*": [
+        "src/context/*"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@router/*": [
+        "src/router/*"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@theme/*": [
+        "src/theme/*"
+      ]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src",
+    "tests",
+    "jest.config.js",
+    "cypress.config.ts",
+    "vite.config.ts"
+  ]
+}
